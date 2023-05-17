@@ -3,8 +3,12 @@
     camera_name: narrow_stereo
     camera_info_url: package://rm_vision_bringup/config/camera_info.yaml
     frame_id: "camera_optical_frame"
-    exposure_time: 2500
-    gain: 8.0
+
+    exposure_time: 3000
+    gain: 0.0
+
+    offset_x: 0
+    offset_y: 0
 
 /armor_detector:
   ros__parameters:
